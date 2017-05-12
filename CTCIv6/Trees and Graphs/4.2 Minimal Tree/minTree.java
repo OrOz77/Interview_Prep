@@ -9,7 +9,7 @@
 
 public static Node createBST(int[] sortedArray){
   //call wrapper for binary search to work
-  createBST(sortedArray, 0, sortedArray.length);
+  return createBST(sortedArray, 0, sortedArray.length);
 }
 
 private static Node createBST(int[] sortedArray, int left, int right){
